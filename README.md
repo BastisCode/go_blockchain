@@ -22,6 +22,11 @@ Start server:
 ```
 go run server/main.go
 ```
+Alternative on Windows:
+```
+server.exe
+```
+
 
 Add block as client:
 ```
@@ -31,4 +36,9 @@ go run client/main.go --add
 get blockchain as client:
 ```
 go run client/main.go --list
+```
+Alternative on Windows:
+```
+client.exe --add
+client.exe --list
 ```
